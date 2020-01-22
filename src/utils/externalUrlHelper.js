@@ -2,11 +2,11 @@ import UUID from "uuid/v1.js";
 
 export const openBankAuthUrl = () => {
     const authUrl =
-        'https://api.lion.mlabs.dpc.hu:8243/authorize' +
+        'https://api.elephant.mifos.io:8243/authorize' +
         '?response_type=code' +
         '&scope=openid profile accounts payments' +
         '&client_id=PttPN26uJLQgvRjSrhmh5ShaqZga' +
-        '&redirect_uri=https://acefintech.mlabs.dpc.hu/lionfintech/customer/banks/authorize' +
+        '&redirect_uri=https://api.elepehant.mifos.io/customer/banks/authorize' +
         '&nonce=' + UUID() +
         '&state=2293e2cf-1c54-38cf-9934-6be4e94e60f8' +
         '&consentType=login';
