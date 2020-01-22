@@ -43,5 +43,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://acefintech.mlabs.dpc.hu/lionfintech/"
+  "homepage": "https://api.elephant.mifos.io/"
 }
